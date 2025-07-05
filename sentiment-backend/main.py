@@ -15,7 +15,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:3000",
-        "https://sentiment-analysis-n9wlv3fkc-abdul-rafays-projects-cff1906f.vercel.app/"
+        "https://sentiment-analysis-n9wlv3fkc-abdul-rafays-projects-cff1906f.vercel.app"
     ],
     allow_credentials=True,
     allow_methods=["*"],
